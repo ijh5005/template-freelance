@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="./css/sitecss.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+  </head>
+  <body ng-app="app">
+
+    <div class="container flex" ng-controller="main">
+      <div class="navbar flex">
+        <div class="logout flex" ng-click="logout()">
+          <h2>logout</h2>
+        </div>
+        <div class="nav flex">
+          <div class="homepageNav" ng-click="nav($event)"></div>
+          <div class="aboutpageNav" ng-click="nav($event)"></div>
+          <div class="productpageNav" ng-click="nav($event)"></div>
+        </div>
+      </div>
+      <div class="homepage flex">
+        <h1>HOME</h1>
+      </div>
+      <div class="aboutpage flex">
+        <h1>ABOUT</h1>
+      </div>
+      <div class="productpage flex">
+        <h1>PRODUCTS</h1>
+      </div>
+    </div>
+
+  </body>
+</html>

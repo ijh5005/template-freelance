@@ -1,0 +1,25 @@
+body,
+html {
+  color: #FFF;
+  font-family: Roboto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.flex {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: #BBB;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  font-size: 5em;
+  text-align: center;
+}

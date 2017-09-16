@@ -1,0 +1,79 @@
+body,
+html {
+  color: #FFF;
+  font-family: Roboto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.flex {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  flex-direction: column;
+  position: relative;
+  top: 0;
+  transition: top 1s;
+}
+
+.navbar {
+  height: 10em;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  justify-content: space-between;
+}
+
+.logout {
+  background-color: #CCC;
+  height: 10em;
+  width: 10em;
+}
+
+.nav {
+  background-color: #DDD;
+  height: 10em;
+  width: 30em;
+}
+
+.homepageNav,
+.aboutpageNav,
+.productpageNav {
+  height: 100%;
+  width: 33.333333%;
+}
+
+.homepage,
+.aboutpage,
+.productpage {
+  height: 100vh;
+  width: 100vw;
+}
+
+.homepage,
+.homepageNav {
+  background-color: #ffc299;
+}
+
+.aboutpage,
+.aboutpageNav {
+  background-color: #ff944d;
+}
+
+.productpage,
+.productpageNav {
+  background-color: #ff6600;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2.8em;
+}
